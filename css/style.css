@@ -2867,21 +2867,6 @@ body.popup-show::after {
 
 @media (min-width: 83.125em) {
   .awards {
-    font-size: 38.4375rem;
-  }
-}
-@media (min-width: 62em) and (max-width: 83.125em) {
-  .awards {
-    font-size: clamp( 28.125rem , -2.1412721893rem  +  48.8165680473vw , 38.4375rem );
-  }
-}
-@media (max-width: 62em) {
-  .awards {
-    font-size: 28.125rem;
-  }
-}
-@media (min-width: 83.125em) {
-  .awards {
     padding-block: 8rem;
   }
 }
@@ -2904,6 +2889,21 @@ body.popup-show::after {
   font-weight: 700;
   color: #fafafa;
   opacity: 0.8;
+}
+@media (min-width: 83.125em) {
+  .awards::before {
+    font-size: 38.4375rem;
+  }
+}
+@media (min-width: 62em) and (max-width: 83.125em) {
+  .awards::before {
+    font-size: clamp( 28.125rem , -2.1412721893rem  +  48.8165680473vw , 38.4375rem );
+  }
+}
+@media (max-width: 62em) {
+  .awards::before {
+    font-size: 28.125rem;
+  }
 }
 @media (max-width: 72.5em) {
   .awards::before {
