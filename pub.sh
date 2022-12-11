@@ -12,4 +12,6 @@ git commit -m "$commitMessage"
 
 git push
 
+npm run upload
+
 read
